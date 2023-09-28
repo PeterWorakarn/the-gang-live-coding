@@ -1,27 +1,50 @@
-# TheGangLiveCoding
+### Coding Challenge Guidelines
+This challenge is consisted of **_Three_** tasks. 
+The candidate should complete each task in order, and build the next task on top of the old one.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Once completed a task, commit the changes with the message 
 
-## Development server
+"Task _-insert task number-_"
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Task 1
 
-## Code scaffolding
+![task_1_1.png](design%2Ftask_1_1.png)
+![task_1_2.png](design%2Ftask_1_2.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Your task is to create a simple website with the following design and features.
 
-## Build
+- There should be five buttons.
+- Each of the button should have a number in them, starting with 0.
+- Clicking on the button will increase the number by 1.
+- The sum of all the number on the buttons should be display underneath, as shown in the image above.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Task 2
+![task_2_2.png](design%2Ftask_2_2.png)
+![task_2_3.png](design%2Ftask_2_3.png)
 
-## Running unit tests
+- All the features from Task 1 should still work.
+- Add a button named "Add clicker" that will create a new button with an initial value of 0 at the end of the list.
+- Add a button named "Remove clicker" that will remove the right most button from the list.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Task 3
+![task_3_1.png](design%2Ftask_3_1.png)
+![task_3_2.png](design%2Ftask_3_2.png)
 
-## Running end-to-end tests
+- All the features from Task 1 and 2 should still work.
+- Display the second-largest value from the list, as shown in the image above.
+- Highlight the button with the second-largest value with red.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Evaluation Criteria
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Task completion
+- Code logic
+- Code readability
+- Code maintainability
+
+### CodeSubmit
+
+Please organize your code as if it were
+going into production
+
+Have fun coding! 🚀
